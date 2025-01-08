@@ -10,7 +10,9 @@ Set env in docker-compose: GATEWAYAPI_KEY=YourApiKey12345
 
 
 
--- Original --
+-- Original Readme -- 
+
+##
 Keycloak Authentication Provider implementation to get a 2nd-factor authentication with a OTP/code/token send via SMS (through AWS SNS).
 
 _Demo purposes only!_

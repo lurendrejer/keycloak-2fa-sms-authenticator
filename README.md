@@ -1,5 +1,5 @@
 # Keycloak 2FA SMS Authenticator
-Patched/adjusted to have easier codes "Consonant-vovel-consonant-number-number" with a two second delay between wrong inputs, for security. 
+Patched/adjusted to have non-numeric codes "Consonant-vovel-consonant-number-number" with a two second delay between wrong inputs, for security. 
 <br/>
 And, sending SMS via gatewayapi.com instead of AWS. <br/>
 <br/><br/>

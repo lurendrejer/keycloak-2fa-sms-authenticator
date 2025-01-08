@@ -1,18 +1,17 @@
 # Keycloak 2FA SMS Authenticator
 Patched/adjusted to have better but easier codes "Consonant-vovel-consonant-number-number" with a two second delay between wrong inputs, for security. 
-##
-And: Sending SMS via gatewayapi.com instead of AWS.
-##
+<br/>
+And, sending SMS via gatewayapi.com instead of AWS. <br/>
+<br/><br/>
 Build with maven: mvn clean package
 Link in your docker container: /your-own-path-to-jar-file:/opt/keycloak/providers/dasniko.keycloak-2fa-sms-authenticator.jar
 Set env in docker-compose: GATEWAYAPI_KEY=YourApiKey12345
+<br/><br/><br/><br/>
 
-##
+
+# -- Original Readme -- 
 
 
--- Original Readme -- 
-
-##
 Keycloak Authentication Provider implementation to get a 2nd-factor authentication with a OTP/code/token send via SMS (through AWS SNS).
 
 _Demo purposes only!_

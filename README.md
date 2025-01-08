@@ -3,10 +3,12 @@ Patched/adjusted to have better but easier codes "Consonant-vovel-consonant-numb
 <br/>
 And, sending SMS via gatewayapi.com instead of AWS. <br/>
 <br/><br/>
-Build with maven: mvn clean package
-Link in your docker container: /your-own-path-to-jar-file:/opt/keycloak/providers/dasniko.keycloak-2fa-sms-authenticator.jar
-Set env in docker-compose: GATEWAYAPI_KEY=YourApiKey12345
-<br/><br/><br/><br/>
+Build with maven: **mvn clean package** <br/>
+Link in your docker container: **/your-own-path-to-jar-file:/opt/keycloak/providers/dasniko.keycloak-2fa-sms-authenticator.jar** <br/>
+Set env in docker-compose: **GATEWAYAPI_KEY=YourApiKey12345** <br/>
+<br/>
+**You should use conditional access to check for mobile_number if you don't want users without to authenticate without SMS**
+<br/><br/><br/>
 
 
 # -- Original Readme -- 

@@ -7,7 +7,7 @@ Build with maven: **mvn clean package** <br/>
 Link in your docker container: **/your-own-path-to-jar-file:/opt/keycloak/providers/dasniko.keycloak-2fa-sms-authenticator.jar** <br/>
 Set env in docker-compose: **GATEWAYAPI_KEY=YourApiKey12345** <br/>
 <br/>
-**You should use conditional access to check for mobile_number if you don't want users without to authenticate without SMS**
+**You should use conditional access to check for mobile_number if you don't want users without mobile_number to authenticate without SMS**
 <br/><br/><br/>
 
 
